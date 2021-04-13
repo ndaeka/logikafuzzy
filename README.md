@@ -1,6 +1,6 @@
 # logikafuzzy
 
-(https://github.com/ndaeka/logikafuzzy/ss/Picture1.png)
+![Screenshot] (https://github.com/ndaeka/logikafuzzy/ss/Picture1.png)
 (https://github.com/ndaeka/logikafuzzy/ss/Picture2.png)
 (https://github.com/ndaeka/logikafuzzy/ss/Picture4.png)
 (https://github.com/ndaeka/logikafuzzy/ss/Picture5.png)
