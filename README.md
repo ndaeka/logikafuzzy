@@ -14,10 +14,11 @@
 <br>
 ![Image 7](https://raw.githubusercontent.com/ndaeka/logikafuzzy/main/ss/Picture8.png)
 <br>
-![Image 9](https://raw.githubusercontent.com/ndaeka/logikafuzzy/main/ss/Picture9.png)
+![Image 8](https://raw.githubusercontent.com/ndaeka/logikafuzzy/main/ss/Picture9.png)
 <br>
-![Image 10](https://raw.githubusercontent.com/ndaeka/logikafuzzy/main/ss/Picture10.png)
+![Image 9](https://raw.githubusercontent.com/ndaeka/logikafuzzy/main/ss/Picture10.png)
 <br>
-![Image 11](https://raw.githubusercontent.com/ndaeka/logikafuzzy/main/ss/Picture11.png)
+![Image 10](https://raw.githubusercontent.com/ndaeka/logikafuzzy/main/ss/Picture11.png)
 <br>
-![Image 12](https://raw.githubusercontent.com/ndaeka/logikafuzzy/main/ss/Picture12.png)<br>
+![Image 11](https://raw.githubusercontent.com/ndaeka/logikafuzzy/main/ss/Picture12.png)<br>
+![Image 12](https://raw.githubusercontent.com/ndaeka/logikafuzzy/main/ss/Picture13.png)<br>
