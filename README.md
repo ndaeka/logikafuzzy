@@ -22,3 +22,4 @@
 <br>
 ![Image 11](https://raw.githubusercontent.com/ndaeka/logikafuzzy/main/ss/Picture12.png)<br>
 ![Image 12](https://raw.githubusercontent.com/ndaeka/logikafuzzy/main/ss/Picture13.png)<br>
+![Image 13](https://raw.githubusercontent.com/ndaeka/logikafuzzy/main/ss/picture14.png)<br>
