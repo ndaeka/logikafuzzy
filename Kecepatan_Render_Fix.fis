@@ -1,0 +1,73 @@
+[System]
+Name='Kecepatan_Render_Fix'
+Type='mamdani'
+Version=2.0
+NumInputs=3
+NumOutputs=1
+NumRules=27
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='Prosessor'
+Range=[0 10]
+NumMFs=3
+MF1='4_Core':'gaussmf',[1.769 -1.388e-16]
+MF2='6_Core':'gaussmf',[1.769 5]
+MF3='8_Core':'gaussmf',[1.769 10]
+
+[Input2]
+Name='RAM'
+Range=[0 10]
+NumMFs=3
+MF1='<8_GB':'gaussmf',[1.769 -1.388e-16]
+MF2='8-16_GB':'gaussmf',[1.769 5]
+MF3='>16_GB':'gaussmf',[1.769 10]
+
+[Input3]
+Name='Memori_Grafis'
+Range=[0 10]
+NumMFs=3
+MF1='GTX1050':'gaussmf',[1.77 3.469e-17]
+MF2='GTX1060':'gaussmf',[1.769 5]
+MF3='GTX_1080':'gaussmf',[1.769 10]
+
+[Output1]
+Name='Kecepatan_Render'
+Range=[0 30]
+NumMFs=3
+MF1='Lambat':'trimf',[0 5 10]
+MF2='Sedang':'trimf',[10 15 20]
+MF3='Cepat':'trimf',[20 25 30]
+
+[Rules]
+1 1 1, 1 (1) : 1
+1 1 2, 1 (1) : 1
+1 1 3, 1 (1) : 1
+1 2 1, 1 (1) : 1
+1 2 2, 2 (1) : 1
+1 2 3, 2 (1) : 1
+1 3 1, 1 (1) : 1
+1 3 2, 2 (1) : 1
+1 3 3, 2 (1) : 1
+2 1 1, 1 (1) : 1
+2 1 2, 2 (1) : 1
+2 1 3, 2 (1) : 1
+2 2 1, 2 (1) : 1
+2 2 2, 2 (1) : 1
+2 2 3, 2 (1) : 1
+2 3 1, 2 (1) : 1
+2 3 2, 2 (1) : 1
+2 3 3, 2 (1) : 1
+3 1 1, 1 (1) : 1
+3 1 2, 2 (1) : 1
+3 1 3, 2 (1) : 1
+3 2 1, 2 (1) : 1
+3 2 2, 2 (1) : 1
+3 2 3, 3 (1) : 1
+3 3 1, 2 (1) : 1
+3 3 2, 3 (1) : 1
+3 3 3, 3 (1) : 1
